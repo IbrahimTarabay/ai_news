@@ -1,0 +1,18 @@
+#root, html, body{
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color: whitesomke;
+}
+
+* {
+  box-sizing: border-box;/*to take padding and border
+   in consideration when we specify height and width*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
