@@ -32,7 +32,7 @@ const NewsCards = ({articles, activeArticle}) => {
                     </strong>
                   </Typography>): null}
 
-               <Typography variant="h6">Try Saying: <br /><i>{infoCard.text}</i></Typography>
+               <Typography variant="h6">Try Saying: <br /><i>go to {infoCard.text}</i></Typography>
               </div>
              </Grid>
            ))}
