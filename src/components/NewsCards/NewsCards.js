@@ -6,9 +6,9 @@ import useStyles from './NewsCards.styles.js';
 
 const infoCards = [
     /*{ color: '#00838f', title: 'Latest News', text: 'Give me the latest news' },*/
-    { color: '#1565c0', title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Technology' },
-    { color: '#4527a0', title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'Bitcoin' },
-    { color: '#283593', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'CNN' },
+    { color: '#1565c0', title: 'News by Categories', info: 'Business, Entertainment, General, Health, Science, Sports, Technology', text: 'Go to Technology' },
+    { color: '#4527a0', title: 'News by Terms', info: 'Bitcoin, PlayStation 5, Smartphones, Donald Trump...', text: 'Go to Bitcoin' },
+    { color: '#283593', title: 'News by Sources', info: 'CNN, Wired, BBC News, Time, IGN, Buzzfeed, ABC News...', text: 'Go to CNN' },
   ];
 
 const NewsCards = ({articles, activeArticle}) => {
@@ -32,7 +32,7 @@ const NewsCards = ({articles, activeArticle}) => {
                     </strong>
                   </Typography>): null}
 
-               <Typography variant="h6">Try Saying: <br /><i>go to {infoCard.text}</i></Typography>
+               <Typography variant="h6">Try Saying: <br /><i>{infoCard.text}</i></Typography>
               </div>
              </Grid>
            ))}
